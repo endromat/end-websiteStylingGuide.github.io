@@ -1,0 +1,163 @@
+body {
+    font-family: 'Fredoka';
+    font-weight: 300;
+    background-image: url(https://images.unsplash.com/photo-1663607395206-5736a4692956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    left: 0px;
+    overflow-y: auto;
+    padding:10px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 200;
+    
+}
+
+.ooo {
+    font-family: 'Rubik Storm';
+    font-size: 100px;
+    margin: 20px 100px 0 50px;
+    text-align: left;
+    z-index: 999;
+}
+
+@media screen and (max-width: 900px){
+    .ooo{font-size: 60px;}
+    .header{left: 0px;
+    overflow-y: unset;
+    padding:0px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;}
+}
+
+header::after {
+    content:'';
+    color: rgb(211, 0, 0);
+    font-family: 'Fredoka';
+    font-weight: 400;
+    padding-left: 0.2em;
+    font-size: 15px;
+    vertical-align:super;
+}
+
+a {
+    position: absolute;
+    transition: transform 0.1s ease;
+}
+
+a:hover {
+    color: #523bff;
+    transform: scale(1.5); /* 鼠标悬停时放大1.1倍 */
+}
+
+.container {
+    position: relative;
+    top: 280px;
+    padding: 50px 100px;
+    margin: 10px auto;
+}
+
+h1 {
+    color: #ffffff;
+    padding-left:7%;
+    word-spacing: 1cap;
+    margin-bottom: 60px;
+    font-family: 'Fredoka';
+    font-weight: 100;
+    text-decoration: overline;
+}
+
+/* h1{
+    content:"";
+    background-color: #FFF;
+    font-family: 'Fredoka';
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    width: 150px; 
+    height: 150px; 
+    margin: auto;
+    position: absolute;
+    transform: rotate(45deg) skewX(30deg);
+}  */
+
+.color {
+    text-align: center;
+    font-size: 30px;
+} 
+
+.panel {
+    margin-bottom: 50px;
+    padding: 5px 20px 0;
+    width: 400px;
+    height: 90px;
+    vertical-align: middle;
+    line-height: 0%;
+    display: inline-block;
+    /* ... 其他属性 ... */
+    transition: transform 0.3s ease; /* 过渡效果：时长为0.3秒，缓动函数为ease */
+}
+
+.panel:hover {
+    transform: scale(1.1); /* 鼠标悬停时放大1.1倍 */
+}
+.watermelonRed {
+    background-color: #ff0022;
+}
+
+.clear {
+    background-color: #00ffb3;
+}
+
+.attentionYellow {
+    background-color: #eeff00;
+}
+
+.black {
+    color: white;
+    background-color: #000;
+}
+.violet {
+    background-color: #523bff;
+}
+.sand {
+    background-color: #e8cfa0;
+}
+.deepWoods {
+    color: white;
+    background-color: #0a1f01;
+}
+.pauper {
+    background-color: #ede9e8;
+}
+
+.row {
+    margin-left: 120px;
+    white-space: nowrap; /* Prevents boxes from wrapping to the next line */
+  }
+  
+  .Font {
+    display: inline-block;
+    vertical-align: top; /* Aligns the containers at the top */
+    margin: 10px; /* Add margin between the boxes as needed */
+  }
+  
+  .textbox {
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    padding: 5px 20px 0;
+    box-sizing: border-box;
+  }
+
+}
